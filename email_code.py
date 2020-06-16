@@ -10,11 +10,11 @@ from re import search
 # 此函数通过使用poplib实现接收邮件
 def recv_email_by_pop3():
     # 要进行邮件接收的邮箱。改成自己的邮箱
-    email_address = "2516092321@qq.com"
+    email_address = "********@qq.com"
     # 要进行邮件接收的邮箱的密码。改成自己的邮箱的密码
     # 设置 -> 账户 -> POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务 -> 开启服务：POP3/SMTP服务
     # 设置 -> 账户 -> POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务 -> 生成授权码
-    email_password = "gvcututrytiydjfb"
+    email_password = "***************"
     # 邮箱对应的pop服务器，也可以直接是IP地址
     # 改成自己邮箱的pop服务器；qq邮箱不需要修改此值
     pop_server_host = "pop.qq.com"
