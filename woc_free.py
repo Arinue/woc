@@ -82,7 +82,7 @@ class Woc(object):
 
 
 if __name__ == '__main__':
-    woc = Woc('2516092321@qq.com','Arinue1!')
+    woc = Woc('*********@qq.com','******')
     #先注销，再重新注册
     woc.Logoff()
     woc.Register()
